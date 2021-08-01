@@ -1,0 +1,23 @@
+DELETE http://localhost:3001/api/persons/6104214db8037840ee19
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMDUzY2NmMDgxZTc4MTgzYmRmMWY0YyIsInVzZXJuYW1lIjoiTGF1cmlucyIsImlhdCI6MTYyNzc0MTIwMn0.sjrBcW1vsy-Klk7hYBEIO4MX6b3HyOrOLKDVji5BFBU
+
+{
+    "name": "Alexin113234322",
+    "number": 1233145
+}
+
+###
+PUT http://localhost:3001/api/persons/6104281842793343850fab17
+Content-Type: application/json
+
+{
+    "name": "Laurin",
+    "number": 23342424
+}
+
+###
+GET http://localhost:3001/api/persons

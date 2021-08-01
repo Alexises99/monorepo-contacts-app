@@ -1,0 +1,29 @@
+{
+  "name": "contacts-app",
+  "private": true,
+  "workspaces": [
+    "contacts",
+    "ej1"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=contacts",
+    "start": "npm run start --workspace=ej1",
+    "dev:api": "npm run build && npm run dev --workspace=ej1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

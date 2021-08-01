@@ -1,0 +1,12 @@
+h2 {
+  color: greenyellow;
+}
+
+span {
+  color:aqua;
+}
+
+.delete {
+  background-color: red;
+  margin: 3px;
+}
